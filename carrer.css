@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.parent{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height:70px ;
+    background-color: white;
+    position: fixed;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("img/bg-top.jpg");
+    
+  
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color:white; /* Fallback color */
+    background-color:white; /* Black w/opacity/see-through */
+    color:rgb(149, 143, 143);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width:max-content;
+    padding: 20px;
+    text-align: center;
+  }
+  .button{
+    background-color: blue;
+    border:solid;
+border-color: white;
+    color:white;
+    border-radius: 10px;
+    height: 100;
+    width: 250;
+  }

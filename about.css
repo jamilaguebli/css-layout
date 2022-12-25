@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  width:100%;
+  height: 70px;
+  position: fixed;
+  background-color: white;
+  border: solid;
+  border-color: white;
+
+   
+}
+
+
+h1{
+    color: rgb(77, 156, 130);
+    text-align: center;
+    padding-top: 20px;
+}
+.img{
+   padding-left: 600;
+ 
+}
+.patient{
+    background-color: rgb(92, 215, 174);
+    width: 250;
+    height:400;
+    
+}
+.docteur{
+    background-color: blue;
+   
+    width:250;
+    height:400;
+}
+.clinic{
+   
+    background-color:black;
+    width: 250;
+    height: 400;
+    
+} 
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-bottom: 20px;
+
+
+}
+.lego{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.titre{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 30;
+}
+.para{
+    color: white;
+    padding-left: 10;
+    padding-top: ;
+    padding-bottom: 50;
+    font-size: 15;
+}
+.for{
+    width: 170;
+    padding-bottom: 30;
+    border: none;
+   
+ 
+}
+.href{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    display: inline-block;
+}
+.culture{
+    color: #42e6c0;
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    margin-top: 0.25em;
+    margin-right: 0px;
+    margin-bottom: 0.35em;
+    margin-left: 0px;
+    padding-right: 1em;
+}
+.follow:hover{
+ color: #42e6c0;
+}
+.flag{
+    display:flex;
+   
+}
+.platform{
+    display: flex;
+    background-color: rgb(164, 223, 223);
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 -10px;
+    height: 700;
+  
+   
+}
+.world{
+    color:rgb(48, 208, 208);
+  
+}
+.work{
+    color: rgb(150, 144, 144);
+}
+.sygnet{
+    background-color: white;
+    width: 250;
+   height:260;
+}
+.titr{
+    font-size: 12;
+    text-align: center;
+}
+.tittr{
+    font-size: 16;
+    padding-bottom: 20;
+}
+.start{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 50px;
+   row-gap: 20px;
+   align-items: end;
+}
+.visit{
+    background-color: white;
+    width: 250;
+    height:250;
+  
+}
+.patients{
+    background-color: white;
+    width: 250;
+    height:250;
+    
+    
+
+}
+.doctor{
+    background-color: white;
+    width: 250;
+    height:250;
+    padding-bottom: 20;
+}
+.start img{
+    padding-left: 50;
+   
+    padding-bottom: 50;
+    padding-right: 50;
+}
+.texte{
+    text-align: center;
+    color: rgb(139, 131, 131);
+}
+.syg{
+ position: absolute;
+
+
+width: 265px;
+height: 265px;;
+overflow: hidden;
+}
+.fooder{
+   display: inline-block;
+   align-items: center;
+}
+.fooder h2{
+    text-align: center;
+    color: rgb(120, 118, 118);
+
+}
+.button{
+    background-color: blue;
+    border:solid;
+border-color: white;
+    color:white;
+    border-radius: 10px;
+    height: 50;
+    width: 250;
+     
+}
+
+
+
